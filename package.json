@@ -1,0 +1,34 @@
+{
+  "name": "excel-cource",
+  "version": "1.0.0",
+  "description": "Pure JS Excel App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjarqo/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "isoniasid <isoniasid@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjarqo/excel-course/issues"
+  },
+  "homepage": "https://github.com/manjarqo/excel-course#readme",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
